@@ -1,0 +1,35 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "TypeScript 개념별 학습 프로젝트",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "arrays": "ts-node src/01-basic-types/examples/arrays.ts",
+    "tuples": "ts-node src/01-basic-types/examples/tuples.ts",
+    "enums": "ts-node src/01-basic-types/examples/enums.ts",
+    "functions": "ts-node src/02-functions/examples/basic-functions.ts",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "typescript",
+    "learning",
+    "examples"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {}
+}
