@@ -5,6 +5,7 @@
  */
 
 import './examples/basic-functions';
+import './examples/pipe-compose';
 
 console.log("🎉 함수 타입 학습 완료!");
 console.log("다음 단계: 인터페이스 학습으로 이동하세요.");
